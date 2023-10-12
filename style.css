@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #3B4256;
+    margin-left: 7%;
+}
+
+#subtitle {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #52575C;
+    margin-left: 10%;
+}
+
+fieldset {
+    border-radius: 16px;
+    border: 1px solid #3B4256;
+    padding: 16px;
+    display: flex;
+    margin-bottom: 18px;
+}
+
+body {
+    font-family: sans-serif;
+    margin-left: 36%;
+    margin-right: 18%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+label {
+    color: #6F7482;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+}
+
+input, select, textarea, button {
+    color: #6F7482;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: #F8FAFC;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.field {
+    margin-bottom: 1em;
+}
+
+.field label {
+    margin-bottom: 0.2em;
+}
+
+.group {
+    flex-direction: column;
+}
+
+fieldset .group .field{
+    float: left;
+    margin-right: 1em;
+}
+
+.field input[type="text"], .field input[type="email"], .field select, .field textarea {
+    padding: 0.2em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.field select option {
+    padding-right: 1em;
+}
+
+.field input:focus, .field select:focus, .field textarea:focus {
+    background: #E0E0F8;
+}
+
+button {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #FFF;
+    font-size: 1.2em;
+    padding: 4px 16px;
+    border-radius: 6px;
+    background: #0048D9;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 1em;
+}
+
+button:hover {
+    background-color: #002266;
+}
+
+#check {
+    display: inline-block;
+    fill: #3B4256;
+}
